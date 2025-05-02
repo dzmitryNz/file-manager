@@ -1,7 +1,7 @@
 {
   "name": "file-manager",
   "version": "0.0.1",
-  "description": "file manager task for rs-schoo nodejs course",
+  "description": "file manager task for rs-school nodejs course",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
