@@ -1,0 +1,11 @@
+{
+  "name": "file-manager",
+  "version": "0.0.1",
+  "description": "file manager task for rs-schoo nodejs course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dzmitryNz",
+  "license": "ISC"
+}
