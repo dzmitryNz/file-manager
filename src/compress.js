@@ -2,6 +2,10 @@ import { createReadStream, createWriteStream } from 'fs';
 import { createBrotliCompress, createBrotliDecompress } from 'zlib';
 import { pipeline } from 'stream/promises';
 
+import { NODE_ENV } from '../env';
+
+const isDev = NODE_ENV === 'dev';
+
 export const compress = async (sourcePath, destinationPath) => {
   try {
     const readStream = createReadStream(sourcePath);
@@ -11,6 +15,7 @@ export const compress = async (sourcePath, destinationPath) => {
     await pipeline(readStream, compressStream, writeStream);
     return true;
   } catch (error) {
+    if (isDev) console.error(error);
     return false;
   }
 };
@@ -24,6 +29,7 @@ export const decompress = async (sourcePath, destinationPath) => {
     await pipeline(readStream, decompressStream, writeStream);
     return true;
   } catch (error) {
+    if (isDev) console.error(error);
     return false;
   }
 };
