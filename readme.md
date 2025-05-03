@@ -32,12 +32,7 @@
 
 ## Advanced Scope
 
-- [ ] **+30** All operations marked as to be implemented using certain streams should be performed using Streams API
-- [ ] **+20** No synchronous Node.js API with asynchronous analogues is used (e.g. not used `readFileSync` instead of `readFile`)  
-- [ ] **+20** Codebase is written in ESM modules instead of CommonJS
-- [ ] **+20** Codebase is separated (at least 7 modules)
-
-## Forfeits
-
-- [ ] **-95% of total task score** Any external tools/libraries are used
-- [ ] **-30% of total task score** Commits after deadline (except commits that affect only `Readme.md`, `.gitignore`, etc.)
+- [x] **+30** All operations marked as to be implemented using certain streams should be performed using Streams API
+- [x] **+20** No synchronous Node.js API with asynchronous analogues is used (e.g. not used `readFileSync` instead of `readFile`)  
+- [x] **+20** Codebase is written in ESM modules instead of CommonJS
+- [x] **+20** Codebase is separated (at least 7 modules)
