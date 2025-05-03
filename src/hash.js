@@ -1,8 +1,8 @@
 import { createReadStream } from 'fs';
 import { createHash } from 'crypto';
 
-import { NODE_ENV } from './env';
-import { DEV_MODE } from './constants';
+import { NODE_ENV } from './env.js';
+import { DEV_MODE } from './constants.js';
 
 const isDev = NODE_ENV === DEV_MODE ? true : false;
 

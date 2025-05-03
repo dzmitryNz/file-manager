@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "file manager task for rs-school nodejs course",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node src/index.js"
   },

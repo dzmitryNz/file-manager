@@ -2,8 +2,8 @@ import { createReadStream, createWriteStream } from 'fs';
 import { createBrotliCompress, createBrotliDecompress } from 'zlib';
 import { pipeline } from 'stream/promises';
 
-import { NODE_ENV } from './env';
-import { DEV_MODE } from './constants';
+import { NODE_ENV } from './env.js';
+import { DEV_MODE } from './constants.js';
 
 const isDev = NODE_ENV === DEV_MODE ? true : false;
 
