@@ -2,9 +2,10 @@ import { createReadStream, createWriteStream } from 'fs';
 import { createBrotliCompress, createBrotliDecompress } from 'zlib';
 import { pipeline } from 'stream/promises';
 
-import { NODE_ENV } from '../env';
+import { NODE_ENV } from './env';
+import { DEV_MODE } from './constants';
 
-const isDev = NODE_ENV === 'dev';
+const isDev = NODE_ENV === DEV_MODE ? true : false;
 
 export const compress = async (sourcePath, destinationPath) => {
   try {
