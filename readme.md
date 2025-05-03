@@ -11,19 +11,19 @@
     - [x] **+10** Go to dedicated folder from current directory
     - [x] **+20** List all files and folders in current directory
 - Basic operations with files implemented properly
-    - [ ] **+10** Read file and print it's content in console
-    - [ ] **+5** Create empty file
-    - [ ] **+5** Create new directory
-    - [ ] **+10** Rename file
-    - [ ] **+10** Copy file
-    - [ ] **+10** Move file
-    - [ ] **+10** Delete file
+    - [x] **+10** Read file and print it's content in console
+    - [x] **+5** Create empty file
+    - [x] **+5** Create new directory
+    - [x] **+10** Rename file
+    - [x] **+10** Copy file
+    - [x] **+10** Move file
+    - [x] **+10** Delete file
 - Operating system info (prints following information in console) implemented properly
-    - [ ] **+6** Get EOL (default system End-Of-Line)
-    - [ ] **+10** Get host machine CPUs info (overall amount of CPUS plus model and clock rate (in GHz) for each of them)
-    - [ ] **+6** Get home directory
-    - [ ] **+6** Get current *system user name* (Do not confuse with the username that is set when the application starts)
-    - [ ] **+6** Get CPU architecture for which Node.js binary has compiled
+    - [x] **+6** Get EOL (default system End-Of-Line)
+    - [x] **+10** Get host machine CPUs info (overall amount of CPUS plus model and clock rate (in GHz) for each of them)
+    - [x] **+6** Get home directory
+    - [x] **+6** Get current *system user name* (Do not confuse with the username that is set when the application starts)
+    - [x] **+6** Get CPU architecture for which Node.js binary has compiled
 - Hash calculation implemented properly
     - [x] **+20** Calculate hash for file 
 - Compress and decompress operations
