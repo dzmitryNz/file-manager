@@ -1,6 +1,6 @@
 {
   "name": "file-manager",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "file manager task for rs-school nodejs course",
   "main": "index.js",
   "type": "module",
